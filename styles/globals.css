@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.bg-sidebar {
+  background-color: #1a202c;
+}
+
+.text-sidebar-foreground {
+  color: #f7fafc;
+}
+
+.hover\:bg-sidebar-hover:hover {
+  background-color: #2d3748;
+}
+
